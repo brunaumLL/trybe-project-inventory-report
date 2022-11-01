@@ -15,7 +15,7 @@ class CompleteReport(SimpleReport):
             company_stock_quantity += (
                 f"- {company}: {company_stock[company]}\n")
 
-        return(
+        return (
             f"{simple_report}\n"
             f"Produtos estocados por empresa:\n"
             f"{company_stock_quantity}"
